@@ -10,39 +10,42 @@
 </head>
 <body>
 
-    <nav class="navbar">
+    <!-- Navbar -->
+	<div class="nav_container">
+        <!-- Logo and Links -->
+		<div class="left_nav">
+			<div class="nav_image">
+				<img src="images/intel_logo.jpg" alt="intel">
+			</div>
+			<div class="nav_links">
+				<a href="#">PRODUCTS</a>
+				<a href="#">SUPPORT</a>
+				<a href="#">SOLUTIONS</a>
+				<a href="#">DEVELOPERS</a>
+				<a href="#">PARTNERS</a>
+			</div>
+		</div>
+        <!-- Search Bar and Other Links -->
+		<div class="right_nav">
+			<div class="left_icons">
+				<input type="search" id="search_bar" placeholder=" Search">
+                <i id="search_glass" class="fas fa-search fa xs"></i>
+			</div>
+			<div class="right_icons">
+				<i class="fa-regular fa-user"></i>
+                <a href="#">LOGIN/REGISTER</a>
+            	<i class="fa-solid fa-globe"></i>
+                <a href="#">LANGUAGE</a>
+			</div>
+		</div>
+	</div>
 
-        <div class="nav_container">
-
-            <div class="left_nav">
-                <img src="images/intel_logo.jpg" alt="intel">
-                <a href="#">PRODUCTS</a>
-                <a href="#">SUPPORT</a>
-                <a href="#">SOLUTIONS</a>
-                <a href="#">DEVELOPERS</a>
-                <a href="#">PARTNERS</a>
-            </div>
-
-            <div class="right_nav">
-                <div class="left_icons">
-                    <input type="search" id="search_bar" placeholder="Search">
-                    <i id="search_glass" class="fas fa-search fa xs"></i>
-                </div>
-                <div class="right_icons">
-                    <i class="fa-regular fa-user"></i>
-                    <a href="#">LOGIN/REGISTER</a>
-                    <i class="fa-solid fa-globe"></i>
-                    <a href="#">LANGUAGE</a>
-                </div>
-            </div>
-
-        </div>
-    </nav>
-
+    <!-- Main Content -->
     <div class="main_container">
-
+        <!-- First Section -->
         <div class="top_main">
             <img src="images/intel_core.jpg" alt="Intel 13th Gen Core">
+            <!-- Image Information -->
             <div class="top_main_info">
                 <div class="info">
                     Introducing Our New 13th Gen Intel® Core™ Processor
@@ -53,42 +56,156 @@
                         for everything you do with the 13th Gen Intel Core 
                         processors.
                     </p>
-                    <button type="button">Learn more ></button>
+                    <button type="button">Learn more &#x2192;</button>
                 </div>
             </div>
         </div>
-
+		
+        <!-- Second Section -->
         <div class="mid_main">
+            <!-- Left Product -->
             <div class="mid_left">
                 <div class="image">
-                    <img src="images/intel_x_core.png" alt="Intel X Core">
-                    <h1>Ultimate Creator PC Platform</h1>
-                    <a href="#">Intel® Core™ X-Series Processor Family</a>
+                    <img src="images/intel_core_square.png" alt="Intel X Core">
+                    <div class="image_text">
+                        <h1>Ultimate Creator PC Platform</h1>
+                        <a href="#">Intel® Core™ X-Series Processor Family</a>
+                    </div>
+                    <div class="buttons">
+                        <button class="first_button" type="button">Learn More &#x2192;</button>
+                        <button class="second_button" type="button"><i class="fa-solid fa-cart-shopping"></i>
+                            Shop Now</button>
+                    </div>
                 </div>
             </div>
+            <!-- Middle Product -->
             <div class="mid_mid">
                 <div class="image">
-                    <img src="images/intel_pc.png" alt="Intel PC">
-                    <h1>Up Your Game</h1>
-                    <a href="#">Intel®-Based Desktop PCs</a>
+                    <img src="images/intel_pc_square.png" alt="Intel PC">
+                    <div class="image_text">
+                        <h1>Up Your Game</h1>
+                        <a href="#">Intel®-Based Desktop PCs</a>
+                    </div>
+                    <div class="buttons">
+                        <button class="first_button" type="button">Learn More &#x2192;</button>
+                        <button class="second_button" type="button"><i class="fa-solid fa-cart-shopping"></i>
+                            Shop Now</button>
+                    </div>
                 </div>
             </div>
+            <!-- Right Product -->
             <div class="mid_right">
                 <div class="image">
-                    <img src="images/intel_laptop.png" alt="Intel Laptop">
-                    <h1>Portability, Performance, Versatility</h1>
-                    <a href="#">Intel®-Based Laptops</a>
+                    <img src="images/intel_laptop_square.png" alt="Intel Laptop">
+                    <div class="image_text">
+                        <h1>Portable Performance</h1>
+                        <a href="#">Intel®-Based Laptops</a>
+                    </div>
+                    <div class="buttons">
+                        <button class="first_button" type="button">Learn More &#x2192;</button>
+                        <button class="second_button" type="button"><i class="fa-solid fa-cart-shopping"></i>
+                            Shop Now</button>
+                    </div>
                 </div>
             </div>
         </div>
 
+        <!-- Third Section -->
         <div class="bottom_main">
-
+            <!-- Left Information -->
+            <div class="bottom_left">
+                <div class="bottom_image">
+                    <img src="images/intel_unison_small.jpg" alt="Intel Unison">
+                    <div class="bottom_image_text">
+                        <h1>Connect Your PC and Devices Effortlessly with Intel® Unison™</h1>
+                        <p>Integrate your devices in a snap, with an intuitive one-time setup that’s 
+                            fast and easy. Plus, Intel Unison is flexible, letting you connect your 
+                            choice of PC and phone (Android or iOS). You’ll find Intel Unison 
+                            exclusively on Evo laptops, coming soon—with later releases on even more 
+                            of your favorite devices.</p>
+                    </div>
+                    <div class="bottom_buttons">
+                        <button class="bottom_first_button" type="button">Learn More &#x2192;</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Information -->
+            <div class="bottom_right">
+                <div class="bottom_image">
+                    <img src="images/intel_fold_small.png" alt="Intel Lenovo Fold">
+                    <div class="bottom_image_text">
+                        <h1>The Future Is Foldable: Introducing the ASUS Zenbook 17 Fold OLED</h1>
+                        <p>
+                            Together, Intel and ASUS are paving the way for industry-defining 
+                            breakthroughs and PC experiences. The ASUS Zenbook 17 Fold OLED, 
+                            powered by 12th Gen Intel® Core™ i7 U-series processors, enables 
+                            people to maximize their productivity with six different usage modes.
+                        </p>
+                    </div>
+                    <div class="bottom_buttons">
+                        <button class="bottom_first_button" type="button">Learn More &#x2192;</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
-    </div>
-
-    <div class="footer_container">
+        <!-- Footer -->
+        <div class="footer_main">
+            <!-- Footer Logo -->
+            <div class="footer_left">
+                <img src="images/intel_logo2.png" alt="intel">
+            </div>
+            <!-- Footer Links and Icons -->
+            <div class="footer_right">
+                <div class="footer_info">
+                    <p>
+                        <a href="#">Company Overview</a>
+                        <a href="#">Contact Intel</a>
+                        <a href="#">Newsroom</a>
+                        <a href="#">Investors</a>
+                        <a href="#">Diversity & Inclusion</a>
+                        <br>
+                        <a href="#">Careers</a>
+                        <a href="#">Corporate Responsibility</a>
+                        <a href="#">Public Policy</a>
+                    </p>
+                </div>
+                <div class="footer_icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="footer_extra_info">
+                    <span>
+                        <a href="#">© Intel Corporation</a> |   
+                        <a href="#">Terms of Use</a> |   
+                        <a href="#">*Trademarks</a> |   
+                        <a href="#">Cookies</a> |   
+                        <a href="#">Privacy</a> |   
+                        <a href="#">Supply Chain Transparency</a> |   
+                        <a href="#">Site Map</a>
+                    </span>
+                    <br>
+                    <br>
+                    <span>
+                        Intel technologies may require enabled hardware, 
+                        software or service activation. // No product or 
+                        component can be absolutely secure. // Your costs 
+                        and results may vary. // Performance varies by use, 
+                        configuration and other factors. // See our complete 
+                        legal Notices and Disclaimers. // Intel is committed 
+                        to respecting human rights and avoiding complicity in 
+                        human rights abuses. See Intel’s Global Human Rights 
+                        Principles. Intel’s products and software are intended 
+                        only to be used in applications that do not cause or 
+                        contribute to a violation of an internationally recognized 
+                        human right.
+                    </span>
+                </div>
+            </div>
+        </div>
 
     </div>
     
